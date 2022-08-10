@@ -1,0 +1,60 @@
+.firstpart {
+    position: relative;
+    padding: 40px;
+    width: 400px;
+    height: 650px;
+}
+
+.topdiv {
+    position: relative;
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    .intro {
+        margin: 30px;
+        padding-top: 40px;
+        color: #63666A;
+        font-size: 25px;
+        text-align: left;
+        line-height: 1.6;
+    }
+}
+
+.bottomdiv {
+    width: 400px;
+    height: 200px;
+    background-color: $color-purple-blue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    .website {
+        color: lightgrey;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 10px;  
+    }
+    .name {
+        color: white;
+        font-size: 27px;
+        text-align: center;
+        padding-top: 90px;
+    }
+}
+
+.picdiv {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    display: block;
+    bottom: 20px;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    border: 8px solid white;
+    .job {
+        border-radius: 100%;
+        width: 125px;
+        height: 125px;
+    }
+}
